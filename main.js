@@ -8,7 +8,6 @@ document.getElementById('addItemButton').addEventListener('click', function() {
         
         let deleteButton = document.createElement('button');
         deleteButton.textContent = 'Delete';
-        deleteButton.style.marginLeft = '10px'; 
         
         deleteButton.addEventListener('click', function() {
             li.remove();
